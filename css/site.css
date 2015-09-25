@@ -1,35 +1,14 @@
-#img_j,#img-services{
-  position:relative;
-  /*padding:40px 12px 40px 0px;*/
-  width:100%;
-  background-size: cover;
-  background-repeat: no-repeat;
-  top: 0px;
-  left: 0px;
-  /*z-index: 1;*/
-}
-
-#img_av {
-  position:absolute;
-  top: 20%;
-  left: 47%;
-  z-index: 3;
-}
 .imgs_contr{
-  position: relative;
-  left: 0; top: 0;
+  background-image: ('assets/assets/h_img.jpg') transparent center center no-repeat;
+  /*background-image: URL() background-repeat: no-repeat;*/
+  height: 500px;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
-.img-text-1{
-  position: absolute;
-  top: 40%;
-  left: 47%;
-  color:#fff;
-}
-.img-text-2{
-  position: absolute;
-  top: 46%;
-  left: 40%;
-  color:#fff;
+#center-img{
+  padding-left: 6%;
 }
 #img_mouse{
   position: absolute;
@@ -50,4 +29,10 @@
 .service-head{
   position: absolute;
   top:10%;
+}
+#img-text{
+  position: absolute;
+  top: 5%;
+  left: 40%;
+  color:#fff;
 }
