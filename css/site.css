@@ -1,5 +1,6 @@
 body {
   overflow-x: hidden;
+  font-family: 'Roboto';
 }
 #home {
   background-image: url(../images/assets/h_img.jpg);
@@ -33,6 +34,22 @@ body {
 .about-body {
   font-size: 16px;
 }
+.thick{
+  position: relative;
+  width: 100%;
+  left: 0;
+  font-size: 18px;
+  margin-bottom: 4%;
+}
+
+.slim{
+  position: relative;
+  width: 100%;
+  left: 0;
+  font-size: 18px;
+  word-wrap: break-word;
+}
+
 #services {
   background-image: url(../images/assets/s_image.jpg);
   background-repeat: no-repeat;
@@ -52,36 +69,36 @@ body {
   background-color: #F9FBE7;
 }
 #ico_design{
-  position: absolute;
-  left: 40%;
+  position: relative;
+  left: 45%;
   height: 50px;
   width: 50px;
 }
 
 #ico_dev{
-  position: absolute;
-  left: 43%;
+  position: relative;
+  left: 45%;
   height: 50px;
   width: 50px;
 }
 #ico_product{
-  position: absolute;
-  left: 38%;
+  position: relative;
+  left: 45%;
   height: 50px;
   width: 50px;
 }
 
 
 #ico_text_des{
-  position: absolute;
-  left: 37%;
+  position: relative;
+  left: 38%;
 }
 #ico_text_dev{
-  position: absolute;
-  left: 33%;
+  position: relative;
+  left: 30%;
 }
 #ico_text_prod{
-  position: absolute;
+  position: relative;
   left: 20%;
 }
 
