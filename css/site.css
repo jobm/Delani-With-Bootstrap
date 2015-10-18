@@ -1,58 +1,83 @@
-body{
+body {
   overflow-x: hidden;
 }
-#home{
-  /*background-attachment: fixed;*/
+#home {
   background-image: url(../images/assets/h_img.jpg);
   background-repeat: no-repeat;
   background-size: contain;
-  background-position: center;
   min-width: 100%;
   height: 665px;
   margin: 0;
   padding: 0;
 }
-.logo{
+.logo {
   position: relative;
   top: 25%;
   left: 48%;
   width: 60px;
   height: 60px;
 }
-.mouse{
+.mouse {
   position: relative;
   top: 49%;
   left: 48%;
 }
-#banner-text{
+#banner-text {
   position: relative;
   top: 30%;
-  color:#fff;
-
+  color: #fff;
 }
-
-#about{
-  background-color: #EEEEEE;
+#about {
+  background-color: #FFFDE7;
 }
-.about-body{
+.about-body {
   font-size: 16px;
 }
-/*.
-.about-cont{
-  padding-top: 6%;
-  padding-bottom: 6%;
+#services {
+  background-image: url(../images/assets/s_image.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-width: 100%;
+  height: 488;
+  color: #fff;
 }
-.about-text-1,.about-text-2{
-  margin-left: 30%;
-  margin-right: 30%;
+.services-body {
+  font-size: 16px;
 }
-.service-head{
+
+#work{
+  background-color: #FFFDE7;
+}
+#ico_design{
   position: absolute;
-  top:10%;
-}
-#img-text{
-  position: absolute;
-  top: 5%;
   left: 40%;
-  color:#fff;
-}*/
+  height: 50px;
+  width: 50px;
+}
+
+#ico_dev{
+  position: absolute;
+  left: 43%;
+  height: 50px;
+  width: 50px;
+}
+#ico_product{
+  position: absolute;
+  left: 38%;
+  height: 50px;
+  width: 50px;
+}
+
+
+#ico_text_des{
+  position: absolute;
+  left: 37%;
+}
+#ico_text_dev{
+  position: absolute;
+  left: 33%;
+}
+#ico_text_prod{
+  position: absolute;
+  left: 20%;
+}
