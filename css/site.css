@@ -31,9 +31,13 @@ body{
 
 }
 
-/*.about{
-  background-color: gray
+#about{
+  background-color: #EEEEEE;
 }
+.about-body{
+  font-size: 16px;
+}
+/*.
 .about-cont{
   padding-top: 6%;
   padding-bottom: 6%;
