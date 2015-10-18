@@ -28,7 +28,7 @@ body {
   color: #fff;
 }
 #about {
-  background-color: #FFFDE7;
+  background-color: #F9FBE7;
 }
 .about-body {
   font-size: 16px;
@@ -46,7 +46,10 @@ body {
 }
 
 #work{
-  background-color: #FFFDE7;
+  background-color: #F9FBE7;
+}
+#portfolio{
+  background-color: #F9FBE7;
 }
 #ico_design{
   position: absolute;
@@ -80,4 +83,8 @@ body {
 #ico_text_prod{
   position: absolute;
   left: 20%;
+}
+
+#portfolio .col{
+  margin-bottom: 2%;
 }
