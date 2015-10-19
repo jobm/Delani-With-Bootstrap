@@ -42,13 +42,6 @@ body {
   margin-bottom: 4%;
 }
 
-.slim{
-  display: block;
-  text-align: center;
-  margin-left: auto;
-  margin-right: auto;
-}
-
 #services {
   background-image: url(../images/assets/s_image.jpg);
   background-repeat: no-repeat;
@@ -160,3 +153,11 @@ body {
    left:1%;
    top:40%;
  }
+ .slim{
+   display: block;
+   margin-left: 20%;
+   margin-right: 10%;
+ }
+.slim div{
+  margin-bottom: 2%;
+}
